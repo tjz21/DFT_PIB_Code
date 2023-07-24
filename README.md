@@ -18,7 +18,7 @@ This repository contains three Google Colab notebooks that are designed to facil
 
 
 ## Notebook 1&ndash;Particle in a 3D Box
-<img align="right" src='https://github.com/tjz21/DFT_PIB_Code/blob/main/figures/test.png' width = "324" height = "300">
+<img align="right" src='https://github.com/tjz21/DFT_PIB_Code/blob/main/figures/NB1_wavefunction.png' width = "324" height = "300">
 In this notebook, we’ll consider the particle in a three-dimensional box system treated in any undergraduate physical chemistry textbook. High-quality energy level diagrams and isosurface renderings of the wavefunction can be generated from user-specified box lengths. Depicted here is the 321 state of an anthracene-like box of dimensions 16 x 8 x 3 Bohr. 
 <br />
 <br>
