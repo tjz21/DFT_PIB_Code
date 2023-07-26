@@ -7,7 +7,7 @@ Cube-Toolz @ git+https://github.com/funkymunkycool/Cube-Toolz.git@915ccf277a25e1
 numpy==1.22.4
 matplotlib==3.7.1
 ipython==7.34.0
-ipywidgets==7.7.1
+ipywidgets==8.0.7
 termcolor==2.2.0
 pathlib==1.0.1
 pandas==1.5.3
