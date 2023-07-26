@@ -10,6 +10,9 @@ conda create --name DFT_code python=3.10
 conda activate DFT_code
 pip install -r requirements.txt
 ```
+```sh
+echo "Hello, World!"
+```
 3. Launch a Jupyter notebook instance.
 ```sh
 jupyter notebook
