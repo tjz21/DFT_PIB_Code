@@ -1,5 +1,5 @@
 # Offline Jupyter Notebooks
-Instead of using Google Colab, offline versions of the notebooks have been made available in this directory and can be run through the conventional Jupyter IDE. Instructions for setting up the conda virtual environment are provided here and have been tested on wsl-Ubuntu 22.04 using the Firefox browser. Although NB1 works fine here, **this is not the recommended approach and most of the GUI features in NB2 and NB3 do not display correctly.**
+Instead of using Google Colab, offline versions of the notebooks have been made available in this directory and can be run through the conventional Jupyter IDE. Instructions for setting up the conda virtual environment are provided here and have been tested on wsl-Ubuntu 22.04 using the Firefox browser. Although NB1 works fine here, **this is not the recommended approach and most of the GUI features in NB2 and NB3 do not display correctly** (because of differences in how ipywidgets runs on Colab vs a local Jupyter Notebook).
 ## Conda Instructions
 1. Create a conda virtual environment 
 ```
