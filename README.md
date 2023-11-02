@@ -61,3 +61,14 @@ Abbreviated notebook with the DFT calculator and analysis tools:
 
 <br>
 
+---
+
+### Citation &nbsp; &nbsp; [![DOI:<10.1021/acs.jchemed.3c00535>](http://img.shields.io/badge/DOI-10.1021/acs.jchemed.3c00535-blue.svg)](<http://dx.doi.org/10.1021/acs.jchemed.3c00535>)
+If you would like to cite this work, please refer to the following publication:
+
+> Hirschi, J. S.; Bashirova, D.; Zuehlsdorff, T. J.
+> Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks.
+> *J. Chem. Educ.*
+> **2023**,
+> Article ASAP.
+> https://doi.org/10.1021/acs.jchemed.3c00535
