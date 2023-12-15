@@ -1,0 +1,3 @@
+sphinxcontrib-images
+sphinx-rtd-theme
+sphinx_design
