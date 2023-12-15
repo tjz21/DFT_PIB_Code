@@ -1,2 +1,5 @@
 # Sphinx Documentation
 docs/build/
+
+# Python 
+notebooks/notebook_functions/__pycache__
