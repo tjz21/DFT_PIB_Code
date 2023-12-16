@@ -387,7 +387,7 @@ def draw_orbital(label, psi_square=False, show_noninteractive_png=False):
     >>> # Display probability density of HOMO-3 orbital of heptacene (calculated in a previous cell)
     >>> draw_orbital('HOMO-3', psi_square=True, show_noninteractive_png=False)
 
-    .. image:: figures/heptacene_homo3.png
+    .. image:: figures/heptacene_HOMO3.png
        :scale: 55 %
        :align: center
 
