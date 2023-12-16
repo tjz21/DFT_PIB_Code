@@ -22,6 +22,10 @@ Opening the DFT Black Box Documentation
 General Information
 -------------------
 
+.. image:: https://readthedocs.org/projects/dft-pib-code/badge/?version=latest
+    :target: https://dft-pib-code.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 .. image:: https://img.shields.io/badge/python-3.10-blue.svg
    :target: https://www.python.org/
    :alt: Python version
