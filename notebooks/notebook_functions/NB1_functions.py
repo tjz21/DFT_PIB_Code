@@ -3,55 +3,57 @@
 import numpy as np
 
 def psi_reg(x, y, z, q_nx=1, q_ny=1, q_nz=1, lx=1, ly=1, lz=1):
-    '''Numeric representation of the normalized 3D PIB wavefunction.
+  '''Numeric representation of the normalized 3D PIB wavefunction.
 
-    :param float x: Cartesian spatial x variable.
-    :param float y: Idem for y.
-    :param float z: Idem for z.
-    :param int q_nx: Quantum number specifying the state along x.
-    :param int q_ny: Idem for y.
-    :param int q_nz: Idem for z.
-    :param int lx: Box dimension along x in Bohr.
-    :param int ly: Idem for y.
-    :param int lz: Idem for z.
+  :param float x: Cartesian spatial x variable.
+  :param float y: Idem for y.
+  :param float z: Idem for z.
+  :param int q_nx: Quantum number specifying the state along x.
+  :param int q_ny: Idem for y.
+  :param int q_nz: Idem for z.
+  :param int lx: Box dimension along x in Bohr.
+  :param int ly: Idem for y.
+  :param int lz: Idem for z.
 
-    :return: Wavefunction evaluated at a point or array if input x, y, z are arrays.
+  :return: Wavefunction evaluated at a point or array if input x, y, z are arrays.
 
-    Example:
+  Example:
 
-    >>> # value of the wavefunction at the center of a 3x3x3 box
-    >>> # in the state 111
-    >>> psi_reg(1.5, 1.5, 1.5, 1, 1, 1, 3, 3, 3)
-    0.5443310539518174
-    '''
-    wvfn = (
-        np.sqrt(8 / (lx * ly * lz)) *
-        np.sin((q_nx * np.pi * x) / lx) *
-        np.sin((q_ny * np.pi * y) / ly) *
-        np.sin((q_nz * np.pi * z) / lz)
-    )
-    return wvfn
+  >>> # value of the wavefunction at the center of a 3x3x3 box
+  >>> # in the state 111
+  >>> psi_reg(1.5, 1.5, 1.5, 1, 1, 1, 3, 3, 3)
+  0.5443310539518174
+
+  '''
+  wvfn = (
+      np.sqrt(8 / (lx * ly * lz)) *
+      np.sin((q_nx * np.pi * x) / lx) *
+      np.sin((q_ny * np.pi * y) / ly) *
+      np.sin((q_nz * np.pi * z) / lz)
+  )
+  return wvfn
 
 def psi_ener(qnx, qny, qnz, lx, ly, lz):
-    '''Calculates energy of 3D PIB state.
+  '''Calculates energy of 3D PIB state.
 
-    :param int qnx: Quantum number specifying the state along x.
-    :param int qny: Idem for y.
-    :param int qnz: Idem for z.
-    :param int lx: Box dimension along x in Bohr.
-    :param int ly: Idem for y.
-    :param int lz: Idem for z.
+  :param int qnx: Quantum number specifying the state along x.
+  :param int qny: Idem for y.
+  :param int qnz: Idem for z.
+  :param int lx: Box dimension along x in Bohr.
+  :param int ly: Idem for y.
+  :param int lz: Idem for z.
 
-    :return: Float energy value in Ha.
+  :return: Float energy value in Ha.
 
-    Example:
+  Example:
 
-    >>> # Energy of 111 state of an 8x8x3 box
-    >>> psi_ener(1, 1, 1, 8, 8, 3)
-    0.702524
-    '''
-    e_level = (4*np.pi**2/8)*((qnx/lx)**2 + (qny/ly)**2 + (qnz/lz)**2)
-    return np.round(e_level, decimals=6)
+  >>> # Energy of 111 state of an 8x8x3 box
+  >>> psi_ener(1, 1, 1, 8, 8, 3)
+  0.702524
+
+  '''
+  e_level = (4*np.pi**2/8)*((qnx/lx)**2 + (qny/ly)**2 + (qnz/lz)**2)
+  return np.round(e_level, decimals=6)
 
 def markdown_wvfn(q_nx, q_ny, q_nz, lx, ly, lz):
   '''Displays LaTeX equation of 3D wavefunction.

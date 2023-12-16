@@ -189,6 +189,7 @@ def get_HL_gap(mf):
 
     :param pyscf.scf.RHF mf: pyscf HF calculation object
     :return: Float representing HL gap in electron-volts.
+
   '''
   global homo_num, lumo_num
   homo_num  = np.count_nonzero(mf.mo_occ == 2) - 1 # HOMO index
@@ -205,6 +206,7 @@ def elec_properties(b):
   '''Prints dipole moment, HL gap, and Mulliken charges from HF calculation result.
 
     :param b: Button click
+
   '''
   HL_gap = get_HL_gap(mf)
   capture_output = mf.dip_moment(verbose=3)
@@ -365,6 +367,7 @@ def get_orbital(i, label):
 
     :param int i: index to iterate over in for loop
     :param str label: MO label, i.e. HOMO, HOMO-1, etc
+
   '''
   tools.cubegen.orbital(mol_quantum, f'{label}.cube', mf.mo_coeff[:,i],nx=80,ny=80,nz=80)
   square_cube = cube_tools.cube(f'{label}.cube')
