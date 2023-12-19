@@ -14,7 +14,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Latest Release](https://img.shields.io/github/v/release/tjz21/DFT_PIB_Code)](https://github.com/tjz21/DFT_PIB_Code/releases/latest)
-
+[![DOI:<10.1021/acs.jchemed.3c00535>](http://img.shields.io/badge/Paper_DOI-10.1021/acs.jchemed.3c00535-blue.svg)](http://dx.doi.org/10.1021/acs.jchemed.3c00535)
 
 This repository contains three Google Colab notebooks that are designed to facilitate understanding of Density-Functional Theory (DFT) through interactive visualizations. Our motivation for developing this software stems from the knowledge deficiency that is often produced from using DFT as a black box in commercial software. By applying DFT to the familiar particle in a box model system employing a real-space grid basis, we hope to have reduced DFT to its fundamental essence fit for pedagogy. Brief instructions for executing the code are provided at the beginning of each notebook and a [problem sheet](https://github.com/tjz21/DFT_PIB_Code/blob/main/DFT_worksheet.pdf) for getting started is attached. The notebooks can be accessed without any installation through Google Colab by simply clicking on the links and signing in with a Google account (offline alternative is provided [here](offline_jupyter/README.md)). Python programming knowledge is not required, and docs are hosted through [ReadTheDocs](https://dft-pib-code.readthedocs.io/en/latest/).
 <br>
@@ -69,7 +69,7 @@ Abbreviated notebook with the DFT calculator and analysis tools:
 
 ---
 
-### Citation &nbsp; &nbsp; [![DOI:<10.1021/acs.jchemed.3c00535>](http://img.shields.io/badge/DOI-10.1021/acs.jchemed.3c00535-blue.svg)](<http://dx.doi.org/10.1021/acs.jchemed.3c00535>)
+### Citation 
 If you would like to cite this work, please refer to the following publication:
 
 > Hirschi, J. S.; Bashirova, D.; Zuehlsdorff, T. J.
