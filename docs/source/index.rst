@@ -38,6 +38,12 @@ General Information
    :target: https://github.com/tjz21/DFT_PIB_Code/releases/latest
    :alt: Code version
 
+.. image:: http://img.shields.io/badge/Paper_DOI-10.1021/acs.jchemed.3c00535-blue.svg
+   :target: http://dx.doi.org/10.1021/acs.jchemed.3c00535 
+   :alt: Paper link
+
+[![DOI:<10.1021/acs.jchemed.3c00535>](http://img.shields.io/badge/Paper_DOI-10.1021/acs.jchemed.3c00535-blue.svg)](http://dx.doi.org/10.1021/acs.jchemed.3c00535)
+
 Welcome to the documentation site for the educational software DFT-PIB, which applies density-functional theory to the 3D particle in a box model system. The three Google Colab Notebooks are accessible from the `GitHub repo <https://github.com/tjz21/DFT_PIB_Code>`_ with the `problem worksheet <https://github.com/tjz21/DFT_PIB_Code/blob/main/DFT_worksheet.pdf>`_, and the instructions are mostly self-contained.
 
 For completeness, we've also attached a :ref:`short guide <short-guide>` for executing the code here and a page with other great :ref:`learning resources <other-resources>`. Although the code is not really intended to be used as an API, we've included descriptions of the main functions used in each notebook herein with some examples.
