@@ -19,7 +19,7 @@ In order to run the code in the cloud using Colab, you'll need to first connect 
 
 .. image:: figures/runtime2.png
 
-Once the green checkmark appears |checkmark| , the code blocks can be executed or pressing SHIFT+ENTER. The GUI widgets then become active:
+Once the green checkmark appears |checkmark| , the code blocks can be executed or pressing SHIFT+ENTER. 
 
 .. |checkmark| image:: figures/connected.png
    :scale: 50 %
