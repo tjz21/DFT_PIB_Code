@@ -63,6 +63,7 @@ Content
    NB2_functions
    NB3_functions
    other_resources
-   GitHub Repo Link <https://github.com/tjz21/DFT_PIB_Code>
    citation
+   :ref:`genindex`
+   GitHub Repo Link <https://github.com/tjz21/DFT_PIB_Code>
 

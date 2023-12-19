@@ -26,6 +26,9 @@ Once the green checkmark appears |checkmark| , the code blocks can be executed o
 
 .. image:: figures/wavefunction_anim.gif
 
+.. note::
+   The GUI widgets become active only after executing the cell.
+
 Viewing the Code
 ----------------
 If you would like to view the source code, click the |show-code| button near the top of any cell to reveal the Python code behind each animation:
