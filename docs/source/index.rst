@@ -63,5 +63,4 @@ Content
    other_resources
    citation
    GitHub Repo Link <https://github.com/tjz21/DFT_PIB_Code>
-
 * :ref:`genindex`

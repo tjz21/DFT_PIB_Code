@@ -23,7 +23,6 @@ def psi_reg(x, y, z, q_nx=1, q_ny=1, q_nz=1, lx=1, ly=1, lz=1):
   >>> # in the state 111
   >>> psi_reg(1.5, 1.5, 1.5, 1, 1, 1, 3, 3, 3)
   0.5443310539518174
-
   '''
   wvfn = (np.sqrt(8 / (lx * ly * lz)) * np.sin((q_nx * np.pi * x) / lx) * np.sin((q_ny * np.pi * y) / ly) * np.sin((q_nz * np.pi * z) / lz) )
   return wvfn
@@ -45,7 +44,6 @@ def psi_ener(qnx, qny, qnz, lx, ly, lz):
   >>> # Energy of 111 state of an 8x8x3 box
   >>> psi_ener(1, 1, 1, 8, 8, 3)
   0.702524
-
   '''
   e_level = (4*np.pi**2/8)*((qnx/lx)**2 + (qny/ly)**2 + (qnz/lz)**2)
   return np.round(e_level, decimals=6)
