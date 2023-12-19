@@ -1,7 +1,5 @@
 # Functions used in Colab Notebook 1 (https://colab.research.google.com/github/tjz21/DFT_PIB_Code/blob/main/notebooks/NB1_3D_PIB.ipynb)
 
-import numpy as np
-
 def psi_reg(x, y, z, q_nx=1, q_ny=1, q_nz=1, lx=1, ly=1, lz=1):
   '''Numeric representation of the normalized 3D PIB wavefunction.
 
