@@ -4,9 +4,9 @@
 
 ---
 
-> 'It is nice to know that the computer understands the problem. But **I would like to understand it too**.' 
+> 'It is nice to know that the computer understands the problem. But I would like to understand it too.' 
 >  
-> \- Eugene Wigner
+> \- **Eugene Wigner**
 
 ---
 
