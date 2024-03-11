@@ -76,4 +76,4 @@ If you would like to cite this work, please refer to the following publication:
 > Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks.
 > *J. Chem. Educ.*
 > **2023**,
-> *100*, 4496-4503. https://doi.org/10.1021/acs.jchemed.3c00535
+> *100* (11), 4496-4503. https://doi.org/10.1021/acs.jchemed.3c00535

@@ -7,7 +7,7 @@ This work has appeared in the following *Journal of Chemical Education* `publica
    @article{DFTBlackBox,
    author = {Hirschi, Jacob S. and Bashirova, Dayana and Zuehlsdorff, Tim J.},
    title = {Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks},
-   journal = {Journal of Chemical Education},
+   journal = {J. Chem. Educ.},
    volume = {100},
    number = {11},
    pages = {4496-4503},
