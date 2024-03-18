@@ -55,11 +55,22 @@ Content
 
 .. toctree::
    :maxdepth: 1
+   :caption: Getting Started
 
    running_code
+
+.. toctree::
+   :maxdepth: 1
+   :caption: API-style docs
+
    NB1_functions
    NB2_functions
    NB3_functions
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Other Info/Links
+
    other_resources
    citation
    GitHub Repo Link <https://github.com/tjz21/DFT_PIB_Code>
