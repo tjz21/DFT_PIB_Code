@@ -38,6 +38,10 @@ General Information
    :target: https://github.com/tjz21/DFT_PIB_Code/releases/latest
    :alt: Code version
 
+.. image:: http://img.shields.io/badge/ChemRxiv-10.26434/chemrxiv--2023--jfgcl-EEEA62.svg
+   :target: http://dx.doi.org/10.26434/chemrxiv-2023-jfgcl
+   :alt: Preprint link
+
 .. image:: http://img.shields.io/badge/Paper_DOI-10.1021/acs.jchemed.3c00535-blue.svg
    :target: http://dx.doi.org/10.1021/acs.jchemed.3c00535 
    :alt: Paper link
