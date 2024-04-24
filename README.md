@@ -70,7 +70,7 @@ Abbreviated notebook with the DFT calculator and analysis tools:
 ---
 
 ### Citation 
-If you would like to cite this work, please refer to the following publication:
+If you would like to cite this work, please refer to the following publication ([BibTeX](DFT_ref.bib)):
 
 > Hirschi, J. S.; Bashirova, D.; Zuehlsdorff, T. J.
 > Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks.
