@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.abspath('../../notebooks/notebook_functions'))
 
 project = 'DFT-PIB Docs'
-copyright = '2023, Zuehlsdorff Group'
+copyright = '2023-2024, Zuehlsdorff Group'
 author = 'Zuehlsdorff Group'
 html_scaled_image_link = False
 
