@@ -14,7 +14,7 @@ project = 'DFT-PIB Docs'
 copyright = '2024, Zuehlsdorff Group'
 author = 'Zuehlsdorff Group'
 html_scaled_image_link = False
-latex_engine = "pdflatex"
+latex_engine = "xelatex"
 
 
 # -- General configuration ---------------------------------------------------
