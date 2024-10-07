@@ -14,6 +14,7 @@ project = 'DFT-PIB Docs'
 copyright = '2024, Zuehlsdorff Group'
 author = 'Zuehlsdorff Group'
 html_scaled_image_link = False
+latex_engine = "pdflatex"
 
 
 # -- General configuration ---------------------------------------------------
@@ -25,7 +26,6 @@ extensions = [ 'sphinx.ext.autodoc',
                 'sphinx.ext.intersphinx',
                 'sphinx_design',
                 'sphinxcontrib.images',
-                "sphinx_build_compatibility.extension",
                ]
 
 templates_path = ['_templates']
