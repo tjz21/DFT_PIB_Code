@@ -25,6 +25,7 @@ extensions = [ 'sphinx.ext.autodoc',
                 'sphinx.ext.intersphinx',
                 'sphinx_design',
                 'sphinxcontrib.images',
+                "sphinx_build_compatibility.extension",
                ]
 
 templates_path = ['_templates']

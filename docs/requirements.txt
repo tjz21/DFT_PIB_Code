@@ -1,4 +1,4 @@
 sphinxcontrib-images
 sphinx-rtd-theme
 sphinx_design
-sphinx-build-compatibility
+git+https://github.com/readthedocs/sphinx-build-compatibility#egg=sphinx-build-compatibility
