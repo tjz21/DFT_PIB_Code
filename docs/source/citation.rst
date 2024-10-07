@@ -2,7 +2,7 @@ Citation
 ========
 This work was published in the `*Journal of Chemical Education* <https://pubs.acs.org/doi/10.1021/acs.jchemed.3c00535>`_.
 
-:Download .bib: :download:`bibtex<https://github.com/tjz21/DFT_PIB_Code/blob/main/DFT_ref.bib>`
+:Download .bib: :download:`bibtex<DFT_ref.bib>`
 
 :Copy and paste:
 
