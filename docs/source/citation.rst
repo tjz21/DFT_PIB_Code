@@ -4,8 +4,6 @@ This work was published in the `*Journal of Chemical Education* <https://pubs.ac
 
 :Download .bib: :download:`bibtex<DFT_ref.bib>`
 
-:Copy and paste:
-
 ::
 
    @article{DFTBlackBox,
@@ -17,6 +15,6 @@ This work was published in the `*Journal of Chemical Education* <https://pubs.ac
    pages = {4496-4503},
    year = {2023},
    doi = {10.1021/acs.jchemed.3c00535},
-   URL = {https://doi.org/10.1021/acs.jchemed.3c00535},
+   URL = {https://doi.org/10.1021/acs.jchemed.3c00535}
    }
 
