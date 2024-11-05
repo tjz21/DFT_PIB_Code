@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: Opening the Density Functional Theory Black Box
+type: software
+authors:
+  - given-names: Jacob S.
+    family-names: Hirschi
+    affiliation: Oregon State University
+    email: hirschij@oregonstate.edu
+    orcid: 'https://orcid.org/0009-0004-3327-8671'
+  - given-names: Dayana
+    family-names: Bashirova
+    affiliation: Oregon State University
+    orcid: 'https://orcid.org/0009-0006-2283-717X'
+  - given-names: Tim J.
+    family-names: Zuehsldorff
+    affiliation: Oregon State University
+    orcid: 'https://orcid.org/0000-0002-6960-756X'
+identifiers:
+  - type: doi
+    value: 10.1021/acs.jchemed.3c00535
+repository-code: 'https://github.com/tjz21/DFT_PIB_Code'
+abstract: >-
+  Interactive Jupyter Notebooks for learning the
+  fundamentals of Density-Functional Theory (DFT).
+keywords:
+  - quantum chemistry
+  - density-functional theory
+  - computational chemistry
+  - open educational resource
+  - electronic structure
+license: MIT
+date-released: '2023-10-16'
+preferred-citation:
+  authors:
+  - given-names: Jacob S.
+    family-names: Hirschi
+    affiliation: Oregon State University
+    email: hirschij@oregonstate.edu
+    orcid: 'https://orcid.org/0009-0004-3327-8671'
+  - given-names: Dayana
+    family-names: Bashirova
+    affiliation: Oregon State University
+    orcid: 'https://orcid.org/0009-0006-2283-717X'
+  - given-names: Tim J.
+    family-names: Zuehsldorff
+    affiliation: Oregon State University
+    orcid: 'https://orcid.org/0000-0002-6960-756X'
+  date-published: 2023-10-16
+  doi: 10.1021/acs.jchemed.3c00535
+  issue: 11
+  journal: Journal of Chemical Education
+  publisher:
+    name: American Chemical Society
+  start: 4496
+  title: "Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks"
+  type: article
+  url: "https://joss.theoj.org/papers/10.21105/joss.05999"
+  volume: 100
+title: "Opening the Density Functional Theory Black Box: A Collection of Pedagogic Jupyter Notebooks"
